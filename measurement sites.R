@@ -57,8 +57,7 @@ inspect(SortedRules[1:15])
 # LPMRules <- sort(LPMRules, decreasing=TRUE, by="support")
 # inspect(LPMRules[1:4])
 
-## Visualize
-## tcltk
+# Visualize
 
 subrules <- head(sort(SortedRules, by="lift"),20)
 plot(subrules)
