@@ -39,7 +39,7 @@ arules::itemFrequencyPlot(sites, topN = 14,
 
 
 # Sort rules by a measure such as conf, sup, or lift
-SortedRules <- sort(siterules, by="lift", decreasing=TRUE)
+SortedRules <- sort(siterules, by="lift", decreasing=FALSE)
 inspect(SortedRules[1:15])
 (summary(SortedRules))
 
